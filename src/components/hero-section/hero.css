@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&display=swap');
+
+.hero-section {
+    padding: 0 100px;
+    max-height: 980px;
+}
+
+.hero-wrapper {
+    display: flex;
+}
+
+.hero-content-title {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: black;
+    max-width: 592px;
+    height: 200px;
+    margin: 210px 0 0 0;
+}
+
+.hero-content-title span {
+    color: #0046BB;
+}
+
+.hero-button {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 25px 120px;
+    color: #fff;
+    background: #0046BB;
+    border: 1px solid transparent;
+}
+
+.hero-button:hover {
+    color: #0046BB;
+    background: #fff;
+    border: 1px solid #0046BB;
+    transition: all 0.4s;
+}
+
+.hero-image img{
+    max-width: 600px;
+    height: 500px;
+    margin: 105px 0;
+}

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+
+.products-section {
+    padding: 0 100px;
+    background: #F9FAFC;
+    max-height: 1400px;
+}
+
+.products-section-wrapper {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.products-section-title {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
+    max-width: 1083px;
+    text-align: center;
+    font-size: 28px;
+    color: #000000;
+    margin: 100px 0 50px 0;
+}
+
+.products-section-content {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 24px;
+    max-width: 600px;
+    text-align: center;
+}
+
+/*Products Bar*/
+.products-bar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.products-bar-product {
+    margin: 90px 40px;
+    padding: 8px 16px;
+    border: 1px solid transparent; 
+    transition: all 0.2s;
+}
+
+.products-bar-product:hover, .product-selected {
+    padding: 8px 16px;
+    border-radius: 10px;
+    border: 1px solid #bdc3cf; 
+    background: #bdc3cf;
+}
+
+.products-bar-product span {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
+    font-size: 24px;    
+}
+
+/*Product Card*/
+.product-card-content-title {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 28px;
+}
+
+.product-card-content-features {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0rem 0;
+    justify-content: space-evenly;
+}

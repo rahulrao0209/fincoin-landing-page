@@ -1,0 +1,45 @@
+[{
+    "id": "1",
+    "productName": "Stocks",
+    "features": [
+        "Easy, fast and simple interface",
+        "Zero brokerage* on Stock investments",
+        "₹20* per order on Intraday"
+    ]
+},
+{
+    "id": "2",
+    "productName": "Mutual funds",
+    "features": [
+        "2000+ Mutual Fund schemes",
+        "Earn higher returns on Direct Mutual Funds",
+        "Invest as low as ₹500"
+    ]
+},
+{
+    "id": "3",
+    "productName": "Digital Gold",
+    "features": [
+        "99.9% pure 24K gold",
+        "Invest as low as ₹1",
+        "Buy/ sell real-time from anywhere"
+    ]
+},
+{
+    "id": "4",
+    "productName": "Bonds",
+    "features": [
+        "Pay just up to ₹20* per order",
+        "Option chain with strategy mode",
+        "TradingView and ChartsIQ chart libraries"
+    ]
+},
+{
+    "id": "5",
+    "productName": "IPO's",
+    "features": [
+        "Invest in Stocks before they are listed",
+        "Apply for IPOs through UPI",
+        "Track your IPO application easily"
+    ]
+}]
