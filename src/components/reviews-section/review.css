@@ -15,7 +15,7 @@
 
 .review-section-wrapper-titles--primary {
     font-family: 'IBM Plex Sans', sans-serif;
-    margin: 90px 0 40px 0;
+    margin: 90px 0 25px 0;
     font-weight: 700;
     font-size: 36px;
 }
@@ -32,15 +32,42 @@
     flex-flow: column wrap;
     align-items: center;
     margin: 30px 0;
+    position: relative;
 }
 
 .review-image {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
+}
+
+.review-button {
+    cursor: pointer;
+    color: #30B2CC;
+    width: 30px;
+    height: 30px;
+}
+
+.next {
+    position: absolute;
+    top: 85px;
+    right: 80px;
+}
+
+.previous {
+    position: absolute;
+    top: 85px;
+    left: 80px;
+}
+
+.reviewer-name {
+    margin: 16px 0 0 0;
+    color: #646464;
+    font-family: 'Handlee', cursive;
+    font-size: 22px;
 }
 
 .review-comment {
-    margin: 30px 0;
+    margin: 16px 0;
     font-family: 'Handlee', cursive;
     font-size: 22px;
     max-width: 600px;

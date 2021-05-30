@@ -53,6 +53,7 @@
 }
 
 .products-bar-product span {
+    cursor: pointer;
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 600;
     font-size: 24px;    

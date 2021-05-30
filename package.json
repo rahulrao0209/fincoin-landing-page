@@ -36,6 +36,7 @@
     ]
   },
   "devDependencies": {
+    "@iconify/icons-grommet-icons": "^1.1.2",
     "@iconify/icons-teenyicons": "^1.1.0",
     "@iconify/react": "^1.1.4"
   }
