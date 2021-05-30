@@ -1,6 +1,7 @@
 [{
     "id": "1",
     "productName": "Stocks",
+    "image": "./assets/images/products-section-images/digital-wallet-product-section.svg",
     "features": [
         "Easy, fast and simple interface",
         "Zero brokerage* on Stock investments",
@@ -10,6 +11,7 @@
 {
     "id": "2",
     "productName": "Mutual funds",
+    "image": "./assets/images/products-section-images/savings-product-section.svg",
     "features": [
         "2000+ Mutual Fund schemes",
         "Earn higher returns on Direct Mutual Funds",
@@ -19,6 +21,7 @@
 {
     "id": "3",
     "productName": "Digital Gold",
+    "image": "./assets/images/products-section-images/digital-currency-product-section.svg",
     "features": [
         "99.9% pure 24K gold",
         "Invest as low as ₹1",
@@ -28,6 +31,7 @@
 {
     "id": "4",
     "productName": "Bonds",
+    "image": "./assets/images/products-section-images/finance-product-section.svg",
     "features": [
         "Pay just up to ₹20* per order",
         "Option chain with strategy mode",
@@ -37,6 +41,7 @@
 {
     "id": "5",
     "productName": "IPO's",
+    "image": "./assets/images/products-section-images/ipo-product-section.svg",
     "features": [
         "Invest in Stocks before they are listed",
         "Apply for IPOs through UPI",

@@ -2,7 +2,6 @@ import React from 'react'
 import products from './products-info.json';
 import { InlineIcon } from '@iconify/react';
 import tickCircleSolid from '@iconify/icons-teenyicons/tick-circle-solid';
-// <Icon icon={tickCircleSolid} style={{fontSize: '40px'}} />
 
 export const ProductCard = ({ currIndex }) => {
     const productsData = JSON.parse(JSON.stringify(products));
@@ -11,7 +10,7 @@ export const ProductCard = ({ currIndex }) => {
         fontFamily: "'IBM Plex Sans', sans-serif",
         fontSize: '18px'
     }
-
+    
     return (
         <section className="product-card">
             <div className="product-card-content">
@@ -29,8 +28,13 @@ export const ProductCard = ({ currIndex }) => {
                     })}
                 </div>  
             </div>
-            <div className="product-card-image">
-
+            <div className="product-card-images">
+                    <div className="product-card-image">
+                        <img 
+                            src={`${productsData[currIndex].image}`}
+                            alt="digital-wallet"    
+                            />       
+                    </div>
             </div>
         </section>
     )
