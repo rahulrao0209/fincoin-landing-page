@@ -1,0 +1,18 @@
+[{
+    "id": "1",
+    "name": "Rita Sweet",
+    "image": "/assets/images/review-section-images/customer1.png",
+    "review": "Superb app! The rates are live and real time and the charting is very good.Supports major Indian markets along with FnO too!"
+},
+{
+    "id": "2",
+    "name": "Josh Booth",
+    "image": "/assets/images/review-section-images/customer2.png",
+    "review": "A very powerful platform for users who want a real guide. It has always been easy here and it is helping me a great deal!"
+},
+{
+ "id": "3",
+ "name": "Terry Watson",
+ "image": "/assets/images/review-section-images/customer3.png",
+ "review": "A reliable app and highly trustworthy. No one should avoid taking benefit from such a great service! Designed for speed and comfort!"
+}]
