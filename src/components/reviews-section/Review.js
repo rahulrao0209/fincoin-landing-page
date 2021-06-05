@@ -20,17 +20,17 @@ export const Review = () => {
                 </div>
                 <div className="review-section-wrapper-reviews">
                     <div>
-                        <InlineIcon icon={previousIcon} className="review-button previous"
-                            onClick={() => setIndex(index === 0 ? customers.length - 1 : index - 1)}
-                        />
                         <img
                             className="review-image" 
                             src={customers[index].image}
                             alt="reviewer-customer"
                         />
-                        <InlineIcon icon={nextIcon} className="review-button next"
-                            onClick={() => setIndex(index === customers.length - 1 ? 0: index + 1)}
-                        />
+                        <div onClick={() => setIndex(index === 0 ? customers.length - 1 : index - 1)}>
+                       <InlineIcon icon={previousIcon} className="review-button previous"/>
+                       </div>
+                        <div  onClick={() => setIndex(index === customers.length - 1 ? 0: index + 1)}>
+                        <InlineIcon icon={nextIcon} className="review-button next"/>
+                        </div>
                     </div>
                     <p className="reviewer-name">
                        {customers[index].name}

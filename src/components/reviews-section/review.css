@@ -73,3 +73,18 @@
     max-width: 600px;
     text-align: center;
 }
+
+/*Tablet Size*/
+@media (max-width: 992px) {
+
+}
+
+/*Mobile Landscape Size*/
+@media (max-width: 768px) {
+    
+}
+
+/*Mobile Portrait Size*/
+@media (max-width: 480) {
+    
+}

@@ -6,6 +6,7 @@
     height: 60px;
     background: #C7EAF1;
     position: sticky;
+    z-index: 100;
     top: 0;
     left: 0;
 }
@@ -13,8 +14,8 @@
 .navbar-wrapper {
     display: flex;
     max-width: 1215px;
-    height: 60px;
-    margin: 0 140px;
+    height: inherit;
+    margin: 0 100px;
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
@@ -59,7 +60,8 @@
 }
 
 .navbar-wrapper-links-buttonlinks {
-    margin-left: 100px;
+    /* margin-left: 100px; */
+    margin-left: 4vw;
 }
 
 .navbar-wrapper-links-link-buttonlinks-colored {
@@ -94,14 +96,51 @@
     border: 1px solid transparent;
 }
 
+.hamburger-menu-icon {
+    display:none;
+}
+
 /*Tablet Size*/
 @media (max-width: 992px) {
+    .navbar-wrapper {
+        margin: 0 5vw;
+        min-width: 765px;
+    }
 
+    .navbar-wrapper-links-buttonlinks {
+        margin-left: 2vw;
+    }
+}
+
+/*Hide the nav links for tablets*/
+@media (max-width: 865px) {
+    .navbar-wrapper {
+        margin: 0 5vw;
+        min-width: auto;
+    }
+
+    .navbar-wrapper-links {
+        display: none;
+    }
+
+    .hamburger-menu-icon {
+        display: block;
+        color: #0046BB;
+        font-size: 40px;
+        cursor: pointer;
+        transform: translateY(5px);
+    }
 }
 
 /*Mobile Landscape Size*/
 @media (max-width: 768px) {
-    
+    .navbar-wrapper-logo {
+        font-size: 28px;
+    }    
+
+    .navbar {
+        height: 50px;
+    }
 }
 
 /*Mobile Portrait Size*/
