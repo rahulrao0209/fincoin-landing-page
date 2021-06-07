@@ -40,6 +40,12 @@
      grid-column-end: span3;
  }
 
+ .social-icon img {
+    margin: 8px 0;
+    width: 40px;
+    height: 40px;
+}
+
  /*Tablet Size*/
 @media (max-width: 992px) {
     .footer {
@@ -50,11 +56,6 @@
         margin-left: 40px;
     }
 
-    .social-icon img {
-        margin: 8px 0;
-        width: 40px;
-        height: 40px;
-    }
 }
 
 /*Mobile Landscape Size*/
