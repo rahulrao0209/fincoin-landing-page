@@ -4,8 +4,8 @@ import { ProductCard } from './ProductCard';
 export const ProductsBar = () => {
 
     const [value, setValue] = useState(0);
-    // products-bar-product
     return (
+        <>
         <div className="products-bar">
               {products.map((product, index) => {
                      return (
@@ -18,8 +18,9 @@ export const ProductsBar = () => {
                          </div>
                      )
                  })}
-                 <ProductCard currIndex={value} />
         </div>
+        <ProductCard currIndex={value} />
+        </>
     )
 }
     

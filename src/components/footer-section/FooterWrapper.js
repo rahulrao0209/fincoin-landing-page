@@ -30,10 +30,18 @@ export const FooterWrapper = () => {
 
             <div className="footer-column col4">
                 <h4>Social</h4>
-                <p>Facebook</p>
-                <p>Twitter</p>
-                <p>Insta</p>
-                <p>Youtube</p>
+                <div className="social-icon">
+                    <img src="./assets/images/footer-section-images/facebook-icon.svg" alt="facebook"/>
+                </div>
+                <div className="social-icon">
+                    <img src="./assets/images/footer-section-images/twitter-icon.svg" alt="twitter"/>
+                </div>
+                <div className="social-icon">
+                    <img src="./assets/images/footer-section-images/insta-icon.svg" alt="instagram"/>
+                </div>
+                <div className="social-icon">
+                    <img src="./assets/images/footer-section-images/youtube-icon.svg" alt="youtube"/>
+                </div>
             </div> 
             <p className="footer-copyright-info">
                 All Rights Reserved. Copyright © Fincoin 2021

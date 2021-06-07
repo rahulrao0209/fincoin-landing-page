@@ -5,12 +5,6 @@ import tickCircleSolid from '@iconify/icons-teenyicons/tick-circle-solid';
 
 export const ProductCard = ({ currIndex }) => {
     const productsData = JSON.parse(JSON.stringify(products));
-    const featureStyle = {
-        'verticalAlign': 'middle',
-        fontFamily: "'IBM Plex Sans', sans-serif",
-        fontSize: '18px'
-    }
-    
     return (
         <section className="product-card">
             <div className="product-card-content">
@@ -22,7 +16,7 @@ export const ProductCard = ({ currIndex }) => {
                         return (
                             <div key={index} style={{margin: '1rem 0'}}>
                                 <InlineIcon icon={tickCircleSolid} style={{fontSize: '28px', verticalAlign: 'middle', marginRight: '8px'}} />
-                                <span className="product-card-content-features--feature" style={featureStyle}>{feature}</span>
+                                <span className="product-card-content-features--feature" /*style={featureStyle}*/>{feature}</span>
                             </div>
                         )
                     })}

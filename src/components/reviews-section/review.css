@@ -81,10 +81,85 @@
 
 /*Mobile Landscape Size*/
 @media (max-width: 768px) {
+    .review-section-wrapper-titles--primary {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 660px) {
+    .review-section {
+        padding: 0 50px;
+    }
+
+    .review-section-wrapper {
+        min-width: 400px;
+    }
+    .next {
+        position: absolute;
+        top: 85px;
+        right: 10vw;
+    }
     
+    .previous {
+        position: absolute;
+        top: 85px;
+        left: 8vw;
+    }
+
+    .review-image {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .reviewer-name {
+        margin: 12px 0 0 0;
+        font-size: 20px;
+    }
+
+    .review-comment {
+        margin: 12px 0;
+        font-size: 18px;
+        max-width: 400px;
+        text-align: center;
+    }
 }
 
 /*Mobile Portrait Size*/
-@media (max-width: 480) {
-    
+@media (max-width: 480px) {
+    .review-section-wrapper {
+        min-width: auto;
+    }
+
+    .review-section-wrapper-titles--primary {
+        margin-top: 60px;
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .review-section-wrapper-titles--secondary {
+        font-size: 18px;
+    }
+
+    .review-image {
+        max-width: 150px;
+        max-height: 150px;
+    }
+
+    .next {
+        top: 60px;
+        right: 1px
+    }
+
+    .previous {
+        top: 62px;
+        left: -1vw
+    }
+
+    .reviewer-name {
+        font-size: 16px;
+    }
+
+    .review-comment {
+        font-size: 14px;
+    }
 }

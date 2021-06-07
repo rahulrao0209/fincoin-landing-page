@@ -33,6 +33,7 @@ export const ChooseUsSection = () => {
                     <div className="choose-us-section-offers--offer">
                         <div>
                         <img
+                            id="offer2"
                             src="./assets/images/choose-us-section-images/denom2.svg"
                             alt="Rs20"
                             style={denomStyle2}

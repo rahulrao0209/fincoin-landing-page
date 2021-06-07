@@ -144,6 +144,16 @@
 }
 
 /*Mobile Portrait Size*/
-@media (max-width: 480) {
-    
+@media (max-width: 480px) {
+    .navbar {
+        height: 40px;
+    }   
+
+    .hamburger-menu-icon {
+        font-size: 32px;
+    }
+
+    .navbar-wrapper-logo {
+        font-size: 22px;
+    }
 }
