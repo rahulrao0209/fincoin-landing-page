@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.dcfd97ff.chunk.css",
-    "main.js": "/static/js/main.acea9388.chunk.js",
-    "main.js.map": "/static/js/main.acea9388.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.70e26f25.js",
-    "runtime-main.js.map": "/static/js/runtime-main.70e26f25.js.map",
-    "static/js/2.0d0f19cf.chunk.js": "/static/js/2.0d0f19cf.chunk.js",
-    "static/js/2.0d0f19cf.chunk.js.map": "/static/js/2.0d0f19cf.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.dcfd97ff.chunk.css.map": "/static/css/main.dcfd97ff.chunk.css.map",
-    "static/js/2.0d0f19cf.chunk.js.LICENSE.txt": "/static/js/2.0d0f19cf.chunk.js.LICENSE.txt"
+    "main.css": "/fincoin-landing-page/static/css/main.dcfd97ff.chunk.css",
+    "main.js": "/fincoin-landing-page/static/js/main.acea9388.chunk.js",
+    "main.js.map": "/fincoin-landing-page/static/js/main.acea9388.chunk.js.map",
+    "runtime-main.js": "/fincoin-landing-page/static/js/runtime-main.5c7a34f8.js",
+    "runtime-main.js.map": "/fincoin-landing-page/static/js/runtime-main.5c7a34f8.js.map",
+    "static/js/2.0d0f19cf.chunk.js": "/fincoin-landing-page/static/js/2.0d0f19cf.chunk.js",
+    "static/js/2.0d0f19cf.chunk.js.map": "/fincoin-landing-page/static/js/2.0d0f19cf.chunk.js.map",
+    "index.html": "/fincoin-landing-page/index.html",
+    "static/css/main.dcfd97ff.chunk.css.map": "/fincoin-landing-page/static/css/main.dcfd97ff.chunk.css.map",
+    "static/js/2.0d0f19cf.chunk.js.LICENSE.txt": "/fincoin-landing-page/static/js/2.0d0f19cf.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.70e26f25.js",
+    "static/js/runtime-main.5c7a34f8.js",
     "static/js/2.0d0f19cf.chunk.js",
     "static/css/main.dcfd97ff.chunk.css",
     "static/js/main.acea9388.chunk.js"
