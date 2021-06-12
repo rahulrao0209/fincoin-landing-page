@@ -24,7 +24,7 @@ export const Sidebar = () => {
         opacity: '0',
         top: '-100%'
     }
-    console.log('click: ' + isOpen);
+    
     return (
         <div className="sidebar-container">
             <div className="sidebar-close-icon" onClick={() => setIsOpen(!isOpen)}
