@@ -9,6 +9,7 @@
 
 .footer-wrapper {
     display: grid;
+    height: auto;
     margin: 20px auto;
     margin-left: 60px;
     padding: 90px 0;

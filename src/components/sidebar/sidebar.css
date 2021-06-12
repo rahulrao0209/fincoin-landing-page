@@ -1,0 +1,93 @@
+
+.sidebar-close-icon {
+    opacity: 0;
+    display: none;
+}
+
+.sidebar-menu {
+    position: absolute;
+    opacity: 0;
+    z-index: 30;
+    top: 0;
+    left: 0;
+    display:flex;
+    width: 100vw;
+    height: 100vh;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #0046BB;
+    background: #C7EAF1;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+/*Tablet Size for hiding navlinks*/
+@media (max-width: 865px) {
+    .sidebar-close-icon {
+        display: block;
+        opacity: 1;
+        transform: translateY(2px);
+        font-size: 32px;
+    }
+}
+
+/*Mobile Landscape Size*/
+@media (max-width: 768px) {
+    .sidebar-close-icon {
+        display: block;
+        font-size: 32px;
+        opacity: 100%;
+        right: 26.5px;
+        top: 4px;
+        margin-top: 0rem;
+        position: absolute;
+        color: #0046BB;
+        z-index: 40;
+    }
+
+    .sidebar-menu {
+        position: absolute;
+        opacity: 0;
+        z-index: 35;
+        top: 0;
+        left: 0;
+        display:flex;
+        width: 100vw;
+        height: 100vh;
+        flex-flow: column wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        color: #0046BB;
+        background: #C7EAF1;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 100;
+        font-size: 24px;
+        transition: 0.3s ease-in-out;
+    }
+}
+
+@media (max-width: 480px) {
+    
+    .sidebar-close-icon {
+        right: 20px;
+        top: 0px;
+    }
+
+    .sidebar-menu {
+        font-size: 18px;
+    }   
+}
+
+@media (max-width: 350px) {
+    .sidebar-close-icon {
+        right: 17.5px;
+    }
+}
+
+@media (max-width: 240px) {
+    .sidebar-menu {
+        font-size: 14px;
+    }   
+}

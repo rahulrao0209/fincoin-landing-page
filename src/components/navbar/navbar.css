@@ -98,6 +98,7 @@
 
 .hamburger-menu-icon {
     display:none;
+    opacity: 0;
 }
 
 /*Tablet Size*/
@@ -110,6 +111,7 @@
     .navbar-wrapper-links-buttonlinks {
         margin-left: 2vw;
     }
+
 }
 
 /*Hide the nav links for tablets*/
@@ -125,10 +127,11 @@
 
     .hamburger-menu-icon {
         display: block;
+        opacity: 1;
         color: #0046BB;
         font-size: 40px;
         cursor: pointer;
-        transform: translateY(5px);
+        transform: translateY(2px);
     }
 }
 

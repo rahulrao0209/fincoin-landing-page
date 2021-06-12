@@ -1,5 +1,6 @@
 import React from 'react';
 import { BiMenuAltRight } from 'react-icons/bi';
+import { Sidebar } from '../sidebar/Sidebar';
 import '../../shared.css';
 import './navbar.css';
 
@@ -10,6 +11,7 @@ export const Navbar = () => {
                 <div className="navbar-wrapper-logo">
                     Fincoin
                 </div>
+                <Sidebar />
                 <div className="hamburger-menu-icon">
                     <BiMenuAltRight />
                 </div>
